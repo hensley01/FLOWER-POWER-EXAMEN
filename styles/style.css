@@ -25,32 +25,42 @@ time, mark, audio, video {
 }
 .main_wrapper{
 	width:1000px;
-	height:auto;
-	margin:auto;
 	background:#dfdfdf;
+	margin: auto;
+	height: auto;
+	vertical-align: center;
+	min-height: 100vh;
 }
 .header_wrapper{
 	width:100%;
 	height:55px;
-	margin:auto;
-	background:white;
 }
 .header_logo {
 	float: left;
 	width: 150px;
 	padding: 10px;
 }
-
+.header_logo #logo{
+	width: 100%;
+}
 #form{
+	margin-left: 50px;
 	float:left;
 	width:45%;
 	margin-top: 10px;
 }
 #form input[type=text]{
 	width: 80%;
-
+	padding: 10px;
 }
-
+#SEARCH{
+	background: gold;
+	border-radius: 10px;
+	border:solid 1px black;
+	padding: 10px;
+	box-shadow: 2px 2px 2px;
+	cursor: pointer;
+}
 .cart{
 float: left;
 	margin: 5px 10px 0px 15px;
@@ -65,6 +75,7 @@ float: left;
 	z-index: 1000;
 }
 .cart img{
+	padding-top: 8px;
 	width: 30px;
 }
 .cart ul{
@@ -120,14 +131,13 @@ float: left;
 .menubar{
 	width: 1000px;
 	height: 50px;
-	background: #072d69;
 }
 .menubar a{
-	color: white;
+	color: darkolivegreen;
 }
 #menu{
 	padding: 0px;
-	margin: 0px;
+	margin-left: 40px;
 	line-height: 40px;
 	float: left;
 }
@@ -149,18 +159,23 @@ float: left;
 .content_wrapper{
 	width: 1000px;
 	margin: auto;
-	background: forestgreen;
+}
+#introductie_homepagina{
+	text-align: center;
+
+	width: 900px;
 }
 #sidebar{
-	width: 200px;
+	margin-top: -15px;
+	width: 180px;
 	background: grey;
 	float: left;
 	height: auto;
 }
 #sidebar_title{
-	background: white;
+	background: rgba(0, 114, 155, 0.9);
 	color: black;
-	font-size: 22px;
+	font-size: 18px;
 	font-family: Arial;
 	padding: 10px;
 	text-align: center;
@@ -179,17 +194,30 @@ float: left;
 	text-align: center;
 	font-size: 20px;
 	text-decoration: none;
-	font-family: Comic Sans MS;
 }
 #cats a:hover{
 	color: orange;
 	font-weight: bolder;
 	text-decoration: none;
 }
+.foto_intro{
+	max-height: 800px;
+
+}
+#foto_homepagina{
+	margin-top: 10px;
+	margin-left: 200px;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+}
 #footer{
 	width: 1000px;
 	height: 100px;
-	background: #f0f0f0;
+	background: grey;
 	clear: both;
+	margin: auto;
+	position: absolute;
+	bottom: 0;
 }
 

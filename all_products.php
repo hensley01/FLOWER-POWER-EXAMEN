@@ -1,20 +1,20 @@
 <?php
 include("functions/functions.php");
 include("admin_area/includes/db.php");
-//echo $output;
 ?>
 
-<html xmlns="http://www.w3.org/1999/html">
 
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Flower Power</title>
-
-    <link rel="stylesheet" href="styles/style.css" media="all"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flower Power alle producten pagina</title>
+    <link rel="stylesheet" href="all_products.css" media="all">
 </head>
-
 <body>
-
-<!-- Main content begint hier -->
 <div class="main_wrapper">
 
     <div class="header_wrapper">
@@ -43,8 +43,8 @@ include("admin_area/includes/db.php");
         </div>
 
         <div class="register_login">
-            <div class="login"><a href="login.php">Login</a></div>
-            <div class="register"><a href="customer/register.php">Register</a></div>
+            <div class="login"><a href="index.php?action=login">Login</a></div>
+            <div class="register"><a href="customer_register.php">Register</a></div>
         </div>
 
         <div class="menubar">
@@ -72,17 +72,33 @@ include("admin_area/includes/db.php");
                 ?>
             </ul>
         </div>
-        <p id="introductie_homepagina">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu eros vitae est lacinia fringilla a
-            sed nibh. Sed urna dolor, aliquam eu sapien sed, pretium aliquam urna. Vivamus lacinia vulputate
-            dapibus. Vivamus imperdiet ante ac quam euismod dictum. Phasellus sodales, dolor eget venenatis
-            faucibus, diam est rhoncus orci, nec gravida risus arcu quis sapien. Nam vulputate sit amet diam non
-            iaculis. Etiam suscipit elit risus, semper ultrices risus mollis et. Pellentesque sed risus non
-            dolor blandit pretium. Praesent eu quam accumsan, congue elit in, semper magna. Phasellus accumsan
-            odio in eros maximus, sed tincidunt metus pellentesque. Nulla facilisi.</p>
-        <div class="foto_intro">
-            <img src="images/bloemen_bruine_achtergrond.jpg" id="foto_homepagina"/>
-        </div>
 
+        <section class="alle_producten_index">
+            <h2>Dit zijn alle planten die te koop zijn</h2>
+            <div class="index_category_list">
+                <div>
+                    <h3>Roos</h3>
+                </div>
+                <div>
+                    <h3>Hibiscus</h3>
+                </div>
+                <div>
+                    <h3>Zonnebloem</h3>
+                </div>
+                <div>
+                    <h3>Paardenbloem</h3>
+                </div>
+                <div>
+                    <h3>Tulpen</h3>
+                </div>
+                <div>
+                    <h3>Roos</h3>
+                </div>
+                <div>
+                    <h3>Roos</h3>
+                </div>
+        </div>
+        </section>
 
     </div><!-- /.content_wrapper-->
 
@@ -92,7 +108,11 @@ include("admin_area/includes/db.php");
     </div>
 </div><!-- /.main wrapper-->
 <!-- Einde van de Main container begint hier --->
-
 </body>
-
 </html>
+
+<?php
+echo "Hallo wereld";
+
+?>
+
